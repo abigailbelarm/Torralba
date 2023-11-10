@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Helvetica', sans-serif;
+    width: 8%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #5d5c61;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1500px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.container {
+    background-color: #000;
+    color: #000;
+    text-align: center;
+    padding: 50px;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Helvetica', sans-serif;
+    width: 8%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #5d5c61;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    border: 8px solid #f1f1f1;
+    position: absolute;
+    top: 10%;
+    left: 32.5%;
+    transform: translate(-50%, -50);
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    height: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 { background-image: url("https://i.imgur.com/aPdLXnT.jpg"); }
+.img2 { background-image: url("https://i.imgur.com/LywB0Df.jpg"); }
+.img3 { background-image: url("https://i.imgur.com/2M3ATpL.jpg"); }
+.img4 { background-image: url("https://i.imgur.com/Xp1wGet.jpg"); }
+.img5 { background-image: url("https://i.imgur.com/UANzpQp.jpg"); }
+.img6 { background-image: url("https://i.imgur.com/NP8WvRe.jpg"); }
+.img7 { background-image: url("https://i.imgur.com/2vhkAEh.jpg"); }
+
+h2.box {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #333;
+    width: 90%;
+    margin: 10px 60px;
+}
+
+.video-container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-wrapper {
+    width: 46.5%;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+.video {
+    width: 100%;
+}
+
+.container {
+    background-color: #000;
+    color: #000;
+    text-align: center;
+    padding: 45px;
+    margin-top: 20px;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+}
